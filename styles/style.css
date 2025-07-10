@@ -77,3 +77,21 @@
 .hero-btn:hover {
   background-color: #372fff;
 }
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+.text-2{
+    font-family:'Raleway'sans-serif;
+}
+.image img{
+    border-radius: 40px;
+}
+.text-color{
+    color: #252432;
+    opacity: 50%;
+}
