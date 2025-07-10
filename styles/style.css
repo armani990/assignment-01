@@ -1,37 +1,79 @@
-.hero{
-    background-image: url('/Assets/Hero-bg.png');
-    background-size: cover;
-    background-position: center;
-    height: 698px;
-    width: 100%;
+/* Hero section with background image */
+.hero {
+  background-image: url('/Assets/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 698px;
+  width: 100%;
+  position: relative;
 }
-.open-sans-normal{
+
+/* Default font */
+.open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
-.common-color{
-    color: #4E47FF;
-}
-.btn-primary{
-    background-color: #4E47FF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin: 0px;
-    padding: 10px 25px;
 
+/* Common color for logo */
+.common-color {
+  color: #4E47FF;
 }
-.basic{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 150px;
-    padding: 20px;
+
+/* Navigation bar styles */
+.basic {
+  display: flex;
+  justify-content: space-between; /* LOGO এবং button দুটো দুই পাশে যাবে */
+  align-items: center;
+  margin: 0px 150px;
+  padding: 20px;
 }
-.nav-title{
-    font-size: 34px;
-    font-weight: 800;
+
+/* Logo style */
+.nav-title {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+/* Sign Up বাটন */
+.btn-primary {
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hero heading & button container */
+.hero-content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/*Main hero heading */
+.hero-heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+/* Hero section button */
+.hero-btn {
+  padding: 14px 30px;
+  font-size: 18px;
+  background-color: #4E47FF;
+  color: rgb(255, 253, 253);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #372fff;
 }
