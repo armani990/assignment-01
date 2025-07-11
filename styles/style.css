@@ -266,6 +266,25 @@
   color: #999;
   margin: 0;
 }
+.optional{
+  font-family: 'Railway' sans-serif;
+  background-color:#f8f8ff;
+}
+.ready{
+  width: 1140px;
+  height: 696px;
+  background-color: white;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 20px rgb(0,0,0,0.1);
+  border-radius: 10px;
+}
+.png-1{
+  border-radius: 40px;
+}
 .contact-section {
   padding: 80px 20px;
   background-color: #f8f8ff;
